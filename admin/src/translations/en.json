@@ -1,5 +1,12 @@
 {
-    "youtube-preview.field.youtube.label": "YouTube URL",
-    "youtube-preview.field.youtube.description": "Enter a YouTube video URL",
-    "youtube-preview.plugin.name": "YouTube Preview"
-}
+    "youtube.label": "YouTube URL",
+    "youtube.description": "Enter a YouTube video URL",
+    "youtube.options.section": "Settings",
+    "youtube.options.placeholder": "Placeholder text",
+    "youtube.options.advanced.required": "Required field",
+    "youtube.options.advanced.required.description": "You won't be able to create an entry if this field is empty",
+    "youtube.options.advanced.placeholder": "Placeholder text",
+    "youtube.error.invalid": "Please enter a valid YouTube URL",
+    "plugin.name": "YouTube Preview",
+    "plugin.description": "Custom field for YouTube video preview"
+  }

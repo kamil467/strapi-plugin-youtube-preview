@@ -5,12 +5,14 @@ const register = ({ strapi }: { strapi: Core.Strapi }) => {
   strapi.customFields.register({
     name: "youtube",
     plugin: "youtube-preview",
-    type: "text",
+    type: "string",
+    
     inputSize: {
       // optional
-      default: 4,
+      default: 6,
       isResizable: true,
-    },
+    }
+    
   });
 };
 

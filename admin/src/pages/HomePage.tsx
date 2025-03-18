@@ -8,7 +8,7 @@ const HomePage = () => {
 
   return (
     <Main>
-      <h1>Welcome to Kamil's Custom Plugin {formatMessage({ id: getTranslation('plugin.name') })}</h1>
+      <h1>Welcome to to Kamil's Custom Plugin for youtube {formatMessage({ id: getTranslation('plugin.name') })}</h1>
     </Main>
   );
 };
